@@ -1,4 +1,4 @@
-package Model;
+package model;
 
 public abstract class Fighter {
 	
@@ -14,16 +14,16 @@ public abstract class Fighter {
 	}
 
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	
 	public double getPower() {
-		return power;
+		return this.power;
 	}
 
 
 	public double getLife() {
-		return life;
+		return this.life;
 	}
 
 	public void setLife(double life) {

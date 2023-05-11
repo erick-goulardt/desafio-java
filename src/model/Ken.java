@@ -1,10 +1,10 @@
-package Model;
+package model;
 
-public class Blanka extends Fighter {
+public class Ken extends Fighter {
 	
-	private final String name = "Blanka";
+	private final String name = "Ken";
 
-	public Blanka(double power, double life, SpecialMove specialMove) {
+	public Ken(double power, double life, SpecialMove specialMove) {
 		super(power, life, specialMove);
 		
 	}

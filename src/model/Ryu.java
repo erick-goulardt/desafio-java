@@ -1,10 +1,10 @@
-package Model;
+package model;
 
-public class Chun_Li extends Fighter {
+public class Ryu extends Fighter {
 	
-	private final String name = "Chun-Li";
+	private final String name = "Ryu";
 
-	public Chun_Li(double power, double life, SpecialMove specialMove) {
+	public Ryu(double power, double life, SpecialMove specialMove) {
 		super(power, life, specialMove);
 		
 	}
@@ -35,5 +35,3 @@ public class Chun_Li extends Fighter {
 	}
 
 }
-
-

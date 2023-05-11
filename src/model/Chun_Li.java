@@ -1,13 +1,14 @@
-package Model;
+package model;
 
-public class Ken extends Fighter {
+public class Chun_Li extends Fighter {
 	
-	private final String name = "Ken";
+	private final String name = "Chun-Li";
 
-	public Ken(double power, double life, SpecialMove specialMove) {
+	public Chun_Li(double power, double life, SpecialMove specialMove) {
 		super(power, life, specialMove);
 		
 	}
+	
 	
 	public String getName() {
 		return this.name;
@@ -21,7 +22,7 @@ public class Ken extends Fighter {
 
 	@Override
 	public void takeLifeAttack(Fighter fighter) {
-		fighter.setLife(fighter.getLife() - this.getPower());
+		fighter.setLife(fighter.getLife() - getPower());
 	}
 	
 	@Override
@@ -35,4 +36,5 @@ public class Ken extends Fighter {
 	}
 
 }
+
 
