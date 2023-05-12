@@ -43,7 +43,7 @@ public class Game {
 	}
 	
 	
-	private void gameTurnPlayer(String movementPlayer1, String movementPlayer2) {
+	public void gameTurnPlayer(String movementPlayer1, String movementPlayer2) {
 		if(movementPlayer1.equalsIgnoreCase("atacar")) {
 			player1.getFighter().attack(player2.getFighter());
 		} else if (movementPlayer1.equalsIgnoreCase("especial")) {
